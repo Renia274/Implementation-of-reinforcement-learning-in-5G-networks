@@ -1,0 +1,5 @@
+For the installation of ns-3 network simulator that is used for the simulation of the 5G network(5G network.cc file) you need to follow the instructions of the following link for every operating system:
+https://www.nsnam.org/wiki/Installation(it is necessary to install and the Prerequisites for 3.31 version of ns-3 network simulator).
+
+For the DQN.py and Enviroment.py file it is necessary to install OpenAIGym based on the instructions. For Linux is https://www.codegrepper.com/code-examples/shell/openai+gym+installation  , for Windows is https://towardsdatascience.com/how-to-install-openai-gym-in-a-windows-environment-338969e24d30 
+and for macOS is https://andrewschrbr.medium.com/simple-setup-of-openai-gym-on-macos-287cf0194ac2.
