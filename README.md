@@ -8,10 +8,10 @@ Installation and Usage
 To install and use this code, follow these steps:
 
     Clone the repository to your local machine
-    Install the required dependencies (listed in requirements.txt)
-    Run the code using the command python main.py
+    Install the required dependencies an tools (listed in requirements.txt)
+    Run the code using the command python3 DQN.py
 
-Once the code is running, you can adjust the RL parameters and network settings as needed to optimize performance.
+Once the code is running, you can adjust the RL parameters(self.EPISODES,self.env._max_episode_steps)  and network settings(TxPowerGnb1Bwp0,TxPowerGnb1Bwp1 TxPowerGnb1Bwp2,TxPowerGnb1Bwp3,double centralFrequencyBand,bandwidthBand) as needed to optimize performance.
 
 Algorithm and Network Description
 
