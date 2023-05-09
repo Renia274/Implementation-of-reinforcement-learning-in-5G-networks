@@ -1,7 +1,7 @@
 # Implementation-of-reinforcement-learning-in-5G-networks
 
 
-This repository contains an implementation of a reinforcement learning algorithm in order to optimize a 5G network. The goal of this project is to use Reinforcement Learning(RL) to improve network performance, such as reducing latency and maximizing throughput, in dynamic and complex 5G environments.
+This repository contains an implementation of reinforcement learning algorithms in order to optimize a 5G network. The goal of this project is to use Reinforcement Learning(RL) to improve network performance, such as reducing latency and maximizing throughput, in dynamic and complex 5G environments.
 
 Installation and Usage
 
@@ -15,5 +15,5 @@ Once the code is running, you can adjust the RL parameters and network settings 
 
 Algorithm and Network Description
 
-We implemented a reinforcement learning to optimize network performance. The agent interacts with the environment by selecting actions that maximize its expected reward. The network architecture consists of a number of nodes, each representing a 5G base station. The agent observes the current state of the network, such as transmited power, and takes actions to adjust the transmitted power to the base station to improve network performance.
+We implemented a Q-Learning to optimize network performance. The agent interacts with the environment by selecting actions that maximize its expected reward. The network architecture consists of a number of nodes, each representing a 5G base station. The agent observes the current state of the network, such as transmited power, and takes actions to adjust the transmitted power to the base station to improve network performance.
 
