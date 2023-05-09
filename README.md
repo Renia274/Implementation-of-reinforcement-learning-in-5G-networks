@@ -1,2 +1,19 @@
 # Implementation-of-reinforcement-learning-in-5G-networks
-This application provides a reinforcement solution for power control in 5G networks in order to achieve best Quality of Service.In particular, collects average SINR from the bandwidth parts of a gNodeB  and stores them into a dataset and applies an action based on transmission power through  an agent. The agent chooses the action via epsilon-greedy strategy  and rewards the network based on signal quality.
+
+
+This repository contains an implementation of a reinforcement learning algorithm in order to optimize a 5G network. The goal of this project is to use Reinforcement Learning(RL) to improve network performance, such as reducing latency and maximizing throughput, in dynamic and complex 5G environments.
+
+Installation and Usage
+
+To install and use this code, follow these steps:
+
+    Clone the repository to your local machine
+    Install the required dependencies (listed in requirements.txt)
+    Run the code using the command python main.py
+
+Once the code is running, you can adjust the RL parameters and network settings as needed to optimize performance.
+
+Algorithm and Network Description
+
+We implemented a reinforcement learning to optimize network performance. The agent interacts with the environment by selecting actions that maximize its expected reward. The network architecture consists of a number of nodes, each representing a 5G base station. The agent observes the current state of the network, such as transmited power, and takes actions to adjust the transmitted power to the base station to improve network performance.
+
